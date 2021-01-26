@@ -1,5 +1,13 @@
 # Dek-D Internship Assignment ( Backend )
 
+## On MacOS
+
+### run this command in this directory
+
+```
+php -S 127.0.0.1:8080
+```
+
 ## File Structure
 
 ```
