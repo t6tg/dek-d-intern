@@ -1,7 +1,7 @@
 <?php
 
-$title = $_REQUEST["title"];
-$data = $_REQUEST["data"];
+$title = $_POST["title"];
+$data = $_POST["data"];
 if (strlen($title) < 4 || strlen($title) > 140) {
     echo "<p>กรุณาใส่หัวข้อกระทู้ตั้งแต่ 4 ตัวอักษร ถึง 140 ตัวอักษร</p>";
     return;
