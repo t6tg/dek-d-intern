@@ -1,5 +1,5 @@
 <?php
-
+header("Access-Control-Allow-Origin: *");
 $title = $_POST["title"];
 $data = $_POST["data"];
 if (strlen($title) < 4 || strlen($title) > 140) {
