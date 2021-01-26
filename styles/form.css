@@ -1,0 +1,49 @@
+.inputTitle {
+    width: 90%;
+    border: none;
+    padding: 0.75rem;
+    border-bottom: solid gray 1px;
+    background: #f0f0f0;
+    outline: none;
+    font-size: 2rem;
+}
+
+.kratu {
+    background: #f0f0f0;
+}
+
+.inputData {
+    width: 90%;
+    border: none;
+    border-bottom: solid gray 1px;
+    background: #f0f0f0;
+    padding: 0.75rem;
+    outline: none;
+    margin: 15px;
+}
+.form {
+    margin: auto;
+    display: grid;
+    max-width: 1024px;
+    grid-template-columns: 50% 50%;
+    margin-top: 20px;
+    grid-gap: 2rem;
+    margin-bottom: 50px;
+}
+
+form > h1,
+div > h1 {
+    text-align: center;
+    padding: 10px;
+    color: #f37a01;
+}
+
+.button {
+    width: 90%;
+    height: 2rem;
+    border: none;
+    background: #f37a01;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+}

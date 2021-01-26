@@ -1,11 +1,14 @@
-# Dek-D Internship Assignment ( Frontend )
+# Dek-D Internship Assignment ( Backend )
 
 ## File Structure
 
 ```
 - index.html
+- backend
+    - sendForm.php
 - scripts
     - slide.js
+    - form.js
 - images
     - 01.jpg
     - 02.jpg
@@ -14,6 +17,7 @@
     - logo.png
 - styles
     - slide.css
+    - form.css
 ```
 
 ## Screenshot
