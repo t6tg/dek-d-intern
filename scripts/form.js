@@ -31,6 +31,5 @@ const sendForm = () => {
     }
     xhttp.open('POST', 'https://dek-d-t6tg.vercel.app/api', true)
     xhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded')
-    xhttp.setRequestHeader(('Access-Control-Allow-Headers', '*'))
     xhttp.send(`title=${userTitle}&data=${userData}`)
 }
