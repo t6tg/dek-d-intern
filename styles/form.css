@@ -31,8 +31,8 @@
     margin-bottom: 50px;
 }
 
-form > h1,
-div > h1 {
+form > .h1,
+div > .h1 {
     text-align: center;
     padding: 10px;
     color: #f37a01;

@@ -18,4 +18,4 @@ if (strlen($data) < 6 || strlen($title) > 2000) {
 }
 
 echo "<h3>หัวข้อกระทู้ : " . htmlspecialchars($title) . "</h3>";
-echo "<p>กระทู้ : " . $data . "</p>";
+echo "<div>กระทู้ : " . $data . "</div>";
