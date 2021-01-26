@@ -29,7 +29,7 @@ const sendForm = () => {
             document.getElementById('r-title').innerHTML = this.responseText
         }
     }
-    xhttp.open('POST', '../backend/sendForm.php', true)
+    xhttp.open('POST', 'https://dek-d-t6tg.now.sh', true)
     xhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded')
     xhttp.send(`title=${userTitle}&data=${userData}`)
 }
