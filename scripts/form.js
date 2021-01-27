@@ -25,6 +25,7 @@ const sendForm = () => {
 
     const xhttp = new XMLHttpRequest()
     xhttp.onreadystatechange = function () {
+        document.getElementById('r-title').innerHTML = 'Loading....'
         if (this.readyState == 4 && this.status == 200) {
             document.getElementById('r-title').innerHTML = this.responseText
         }
